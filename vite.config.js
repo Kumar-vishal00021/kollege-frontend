@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   build: {
     chunkSizeWarningLimit: 1000, // in KB — default is 500
+    outDir: 'dist'
   },
 })
